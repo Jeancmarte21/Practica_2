@@ -55,10 +55,16 @@
 <input class="form-control" type="date" id="fecha" name="fecha" >
 </div>
 </div>
-    <button class="btn btn-primary" type="submit">Crear</button>
+
  
 </form>
-
+       <div class="col-md-4">
+           <input type="number"  name="matricula" id="matricula"><br>
+           <input type="text" name="nombre" id="nombre"><br>
+           <input type="text" name="apellido" id="apellido"><br>
+           <input type="date" name="fecha" id="fecha"><br>
+           <button class="btn btn-primary" type="submit">Crear</button>
+       </div>
     </div> 
 
   </section>

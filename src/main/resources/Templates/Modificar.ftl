@@ -23,6 +23,29 @@
       </ul>
     </nav>
   </header>
+    <div class="col-md-4 col-md-offset-4">
+        <br>
+        <form action="/Modificar" method="post">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+
+                    <label hidden for="Matricula0">Matricula</label>
+                    <label for="Matricula">Matricula</label><br>
+                    <label for="nombre">nombre</label><br>
+                    <label for="apellido">apellido</label><br>
+                    <label for="telefono">telefono</label><br>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" name="Mat" id="Matricula" value="${Estudiante.getMatricula()}"><br>
+                    <input type="text" name="Nom" id="Nombre" value="${Estudiante.getNombre()}"><br>
+                    <input type="text" name="Ape" id="Apellido" value="${Estudiante.getApellido()}"><br>
+                    <input type="text" name="Tel" id="Telefono" value="${Estudiante.getTelefono()}"><br>
+                    <input hidden type="text" name="Mat0" id="Matricula0" value="${Estudiante.getMatricula()?string["0"]}"><br>
+                    <input type="submit" class="btn btn-success col-md-12" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
   <section>
    
    <div class="container">
