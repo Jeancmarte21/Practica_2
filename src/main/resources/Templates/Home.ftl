@@ -17,12 +17,12 @@
 <div class="container">
   <header>
     <div class="primary_header">
-      <h1 class="title">GESTOR ESTUDIANTES</h1>
+      <h1 class="title"><a href="Home.ftl">GESTOR ESTUDIANTES<a/></h1>
     </div>
     <nav class="secondary_header" id="menu">
       <ul>
-        <li>CREATE</li>
-        <li>EDIT</li>
+          <li><a href="Registro.ftl">CREATE</a> </li>
+        <li><a href="Modificar.ftl">EDIT</a></li>
         <li>DELETE</li>
 
       </ul>

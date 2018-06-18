@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e20c21-3b05-4a90-98ae-d95a406031d6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Templates/Home.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Templates/Home.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Templates/Modificar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Templates/Modificar.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Templates/Registro.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Templates/Registro.ftl" afterDir="false" />
     </list>
@@ -26,17 +26,26 @@
       <file leaf-file-name="Modificar.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Templates/Modificar.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state relative-caret-position="270">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Registro.ftl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Templates/Home.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Registro.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Templates/Registro.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+            <state relative-caret-position="270">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -407,8 +416,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataBase/BD.java" />
         <option value="$PROJECT_DIR$/src/main/java/BD/BD.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Templates/Modificar.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/Templates/Registro.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/Templates/Home.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/Templates/Modificar.ftl" />
       </list>
     </option>
   </component>
@@ -574,16 +584,15 @@
       <workItem from="1529269281377" duration="3085000" />
       <workItem from="1529289378095" duration="165000" />
       <workItem from="1529292298749" duration="261000" />
-      <workItem from="1529331660545" duration="247000" />
+      <workItem from="1529331660545" duration="562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3758000" />
+    <option name="totallyTimeSpent" value="4073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="24" width="1235" height="696" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -686,15 +695,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Templates/Modificar.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        <state relative-caret-position="270">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Templates/Registro.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Templates/Home.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
